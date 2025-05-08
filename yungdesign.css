@@ -1,0 +1,87 @@
+
+body{
+    background-color: rgb(241, 194, 243);
+}
+
+.body{
+
+   background-image: url(https://images8.alphacoders.com/105/1055726.png);
+   backdrop-filter: blur(20px);
+   border: 8px solid rgb(227, 141, 248);
+   border-radius: 8px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.navbar{
+    background: scroll;
+    font-family: cursive;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    size: 50px;
+
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(121, 36, 85);
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    align-items: baseline;
+    color: rgb(121, 36, 85);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.My-profile{
+    border: solid;
+    color: rgb(218, 145, 240);
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.My-profile:hover{
+    background-color: rgb(201, 171, 236);
+}
+    
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(246, 179, 255);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+
+  }
+  .navdiv a:hover {
+    background: #d2a8f5;
+  }
+.navdiv a.active {
+    background-color: #2196F3;
+   color: white;
+
+}

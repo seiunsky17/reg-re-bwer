@@ -1,0 +1,73 @@
+
+input{
+    padding: 10px;
+    border: 2px solid rgb(207, 125, 216);
+    border-radius: 5px;
+    background-color: rgb(255, 216, 246);
+    font-size: small;
+    font-family: cursive;
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    left: 200px;
+}
+input:focus{
+    background-color: #cc97e0;
+    border: 2px solid #fdc9f9;
+    outline: none;
+}
+
+button:focus{
+   background-color: #cc97e0;
+   border: 2px solid #fdc9f9;
+   outline: none;
+   opacity: 5px;
+}
+body{
+    font-size: xx-large;
+    background-image: url(https://images8.alphacoders.com/105/1055726.png);
+    background-size: cover;
+    backdrop-filter: blur(100px);
+    font-size: xx-large;
+}
+.container{
+    display: flexbox;
+    font-family: cursive;
+    padding: 5px;
+    flex-direction: row;
+    position: absolute;
+    bottom: 100px;
+    top: 250px;
+    right: 1000px;
+    text-align: center;
+    color: rgb(237, 203, 250);
+    outline-color: #d28ff1;
+}
+ button{
+    border: solid;
+    color: rgb(219, 142, 243);
+    border-radius: 20px;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+    bottom: 45px;
+}
+img{
+    border: solid #edc9fd;
+    border-width: 15px;
+    border-radius: 50%;
+    position:absolute;
+    top: 35px;
+    left: 810px;
+
+}
+h2{
+    position: relative;
+    left: 120px;
+    
+}
+ 
